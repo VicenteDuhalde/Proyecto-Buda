@@ -19,7 +19,7 @@ padding: 0;
 }
 .carrouselinicio{
     width: 99%;
-    height: 400px;
+    height: 600px;
     margin: 3px auto;
     border: solid gold;
     background-repeat: no-repeat;
@@ -162,6 +162,19 @@ main section .sonidofr{
 /* galeria con boostrap */
 .gal-nav{
     display:flex;
-    
 }
-
+.tm-gl{
+    width: 400px;
+    height: 225px;
+    max-height: 225px;
+ 
+}
+.gal-br{
+    width: 99%;
+}
+.nav-link:hover{
+    transform: scale(1,5);
+}
+.nav-link{
+    transition: all 2s;
+}
