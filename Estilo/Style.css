@@ -26,7 +26,7 @@ padding: 0;
     background-size: cover;
     animation: carrousel 30s infinite;
 }  
-@keyframes  carrousel{
+@keyframes carrousel{
     0%{
         background-image: url(../imagenes/nuevobuda.jpg);
     }
@@ -53,7 +53,8 @@ h2{
     border: solid 0.1rem tomato;
 }
 .pie{
-    background-color: rgb(187, 214, 216);
+    background-color: #c4f592;
+    height: 300px;
 }
 .pie__pagina{
     display: flex;
@@ -70,7 +71,7 @@ h2{
     width: 45px;
 }
 .fondo1{
-    background-color: rgb(182, 238, 219);
+    background-color: #c4f592;
     background-size: cover;
 }
 .fondo2{
@@ -79,8 +80,7 @@ h2{
 }
 .nav-br{ 
     display: flex;
-    background-color: aquamarine;
-    font-size: 16px;
+    background-color:#c4f592;
     font-family: 'JetBrains Mono', monospace;
 }
 .parrafoIndex{
@@ -97,13 +97,13 @@ h2{
     word-spacing: 0.8rem; 
 }
 .prf1{
-    color: azure; 
+    color: rgb(67, 202, 202); 
 }
 .prf2{
-    color: darkorange;
+    color: rgb(31, 2, 85);
 }
 .prf3{
-    color: gold;
+    color: rgb(66, 28, 204);
 }
 /* cascada */
 .galeria{
@@ -164,17 +164,22 @@ main section .sonidofr{
     display:flex;
 }
 .tm-gl{
-    width: 400px;
+    width: 250px;
     height: 225px;
     max-height: 225px;
- 
 }
-.gal-br{
-    width: 99%;
+.container-fluid{
+    width: 90%;
+}
+.tm-gl:hover{
+    transform: scale(3);
+}
+.tm-gl{
+    transition: all 3s; align-content: center;
 }
 .nav-link:hover{
     transform: scale(1,5);
 }
 .nav-link{
-    transition: all 2s;
+    transition: all 2s; text-decoration-color: blueviolet 2s;
 }
