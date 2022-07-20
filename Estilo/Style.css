@@ -15,7 +15,7 @@ padding: 0;
     padding: 1.8rem;
     margin: 16px auto;
     width: fit-content;
-    border: solid black;
+    border: solid #b03eda;
 }
 .carrouselinicio{
     width: 99%;
@@ -28,19 +28,19 @@ padding: 0;
 }  
 @keyframes carrousel{
     0%{
-        background-image: url(../imagenes/nuevobuda.jpg);
+        background-image: url(../imagenes/buda50.jpg);
     }
     25%{
-        background-image: url(../imagenes/Diapositiva1.PNG);
+        background-image: url(../imagenes/galeria81.jpg);
     }
     50%{
-        background-image: url(../imagenes/nuevobuda2.jpg);
+        background-image: url(../imagenes/galeria20.jpg);
     }
     75%{
         background-image: url(../imagenes/nuevobuda3.jpg);
     }
     100%{
-        background-image: url(../imagenes/nuevobuda4.jpg);
+        background-image: url(../imagenes/nuevobuda41.jpg);
     }
 }
 h2{
@@ -50,7 +50,9 @@ h2{
     font-size: 1.8rem;
     width: fit-content;
     border-radius: 0.43rem;
-    border: solid 0.1rem tomato;
+    border: solid 0.1rem #b03eda;
+    margin: 5px auto;
+
 }
 .pie{
     background-color: #c4f592;
@@ -75,7 +77,7 @@ h2{
     background-size: cover;
 }
 .fondo2{
-    background-color: rgb(182, 238, 219);
+    background-color: #c4f592;
     background-size: cover;
 }
 .nav-br{ 
@@ -84,9 +86,10 @@ h2{
     font-family: 'JetBrains Mono', monospace;
 }
 .parrafoIndex{
-    width: 24rem;
+    font-size: 20px;
+    width: 100rem;
     border: solid 0.2rem black;
-    height: 8rem;
+    height: 25rem;
     overflow: auto;
 }
 .significadosParrafo{  
@@ -164,6 +167,7 @@ main section .sonidofr{
     display:flex;
 }
 .tm-gl{
+    display:flex; 
     width: 250px;
     height: 225px;
     max-height: 225px;
@@ -182,4 +186,8 @@ main section .sonidofr{
 }
 .nav-link{
     transition: all 2s; text-decoration-color: blueviolet 2s;
+}
+.fotoinicio{
+    width: 250px;
+    height: 400px;
 }
