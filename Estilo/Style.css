@@ -15,32 +15,32 @@ padding: 0;
     padding: 1.8rem;
     margin: 16px auto;
     width: fit-content;
-    border: solid black;
+    border: solid #b03eda;
 }
 .carrouselinicio{
     width: 99%;
-    height: 400px;
+    height: 600px;
     margin: 3px auto;
     border: solid gold;
     background-repeat: no-repeat;
     background-size: cover;
     animation: carrousel 30s infinite;
 }  
-@keyframes  carrousel{
+@keyframes carrousel{
     0%{
-        background-image: url(../imagenes/nuevobuda.jpg);
+        background-image: url(../imagenes/buda50.jpg);
     }
     25%{
-        background-image: url(../imagenes/Diapositiva1.PNG);
+        background-image: url(../imagenes/galeria81.jpg);
     }
     50%{
-        background-image: url(../imagenes/nuevobuda2.jpg);
+        background-image: url(../imagenes/galeria20.jpg);
     }
     75%{
         background-image: url(../imagenes/nuevobuda3.jpg);
     }
     100%{
-        background-image: url(../imagenes/nuevobuda4.jpg);
+        background-image: url(../imagenes/nuevobuda41.jpg);
     }
 }
 .carrouselinicio2{
@@ -76,10 +76,13 @@ h2{
     font-size: 1.8rem;
     width: fit-content;
     border-radius: 0.43rem;
-    border: solid 0.1rem tomato;
+    border: solid 0.1rem #b03eda;
+    margin: 5px auto;
+
 }
 .pie{
-    background-color: rgb(187, 214, 216);
+    background-color: #c4f592;
+    height: 300px;
 }
 .pie__pagina{
     display: flex;
@@ -96,37 +99,23 @@ h2{
     width: 45px;
 }
 .fondo1{
-    background-color: rgb(182, 238, 219);
+    background-color: #c4f592;
     background-size: cover;
 }
 .fondo2{
-    background-color: rgb(182, 238, 219);
+    background-color: #c4f592;
     background-size: cover;
 }
-nav ul{
-    list-style: none;
-    /* height: 3.4rem;
+.nav-br{ 
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; */
-    margin: 0 auto;
-    width: fit-content;
-}
-nav ul .listas2{
-    display: inline-block;
-    padding: 0.5rem;
-}
-nav ul .listas2 a {
-    color: rgb(72, 204, 10);
+    background-color:#c4f592;
     font-family: 'JetBrains Mono', monospace;
-    font-weight: 500;
-    text-decoration: none;
 }
 .parrafoIndex{
-    width: 24rem;
+    font-size: 20px;
+    width: 100rem;
     border: solid 0.2rem black;
-    height: 8rem;
+    height: 25rem;
     overflow: auto;
 }
 .significadosParrafo{  
@@ -137,13 +126,13 @@ nav ul .listas2 a {
     word-spacing: 0.8rem; 
 }
 .prf1{
-    color: azure; 
+    color: rgb(67, 202, 202); 
 }
 .prf2{
-    color: darkorange;
+    color: rgb(31, 2, 85);
 }
 .prf3{
-    color: gold;
+    color: rgb(66, 28, 204);
 }
 /* cascada */
 .galeria{
@@ -198,4 +187,33 @@ main section .sonidofr{
     grid-template-columns: 1fr 2fr;
     justify-content: center;
     align-items: flex-start;
+}
+/* galeria con boostrap */
+.gal-nav{
+    display:flex;
+}
+.tm-gl{
+    display:flex; 
+    width: 250px;
+    height: 225px;
+    max-height: 225px;
+}
+.container-fluid{
+    width: 90%;
+}
+.tm-gl:hover{
+    transform: scale(3);
+}
+.tm-gl{
+    transition: all 3s; align-content: center;
+}
+.nav-link:hover{
+    transform: scale(1,5);
+}
+.nav-link{
+    transition: all 2s; text-decoration-color: blueviolet 2s;
+}
+.fotoinicio{
+    width: 250px;
+    height: 400px;
 }
