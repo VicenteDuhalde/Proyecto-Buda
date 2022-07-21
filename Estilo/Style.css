@@ -197,6 +197,7 @@ main section .sonidofr{
     width: 250px;
     height: 225px;
     max-height: 225px;
+    border: solid #dbb42c;
 }
 .container-fluid{
     width: 90%;
