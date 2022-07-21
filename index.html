@@ -9,9 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Lemonada&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./Estilo/Style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Budas Bin Bang</title>
 </head>
-<body class="fondo1">
+<body class="fondo">
     <header>
         <h1 class="soloH1">Budas Bin Bang</h1>
             <section class="carrouselinicio"></section>   
@@ -39,6 +40,20 @@
               <audio class="sonidofr" src="./sonidos/segmentodefrecuencia.mp3" controls autoplay muted>
               </audio>
           </section>
+          <section class="film">
+            <video class="film__ini" width="700" height="480" controls muted>
+              <source src="./video/video1.mp4" type="video/mp4">
+              <source src="./video/video1.ogg" type="video/ogg">
+            </video>
+            <video class="film__ini" width="700" height="480" controls muted>
+              <source src="./video/video2.mp4" type="video/mp4">
+              <source src="./video/video2.ogg" type="video/ogg">
+            </video>
+            <video class="film__ini" width="700" height="480" controls muted>
+              <source src="./video/video3.mp4" type="video/mp4">
+              <source src="./video/video3.ogg" type="video/ogg">
+            </video>
+          </section>
           <section class="pruebagrid">
 					  <img class="fotoinicio" src="./imagenes/budainicio.jpg" alt="imagen del parrafo">
 				        <p class="parrafoIndex"> La idea de concretar este proyecto, aunque yo prefiero llamarlo mi inspiración, surgió inevitablemente de aquellos vacíos emocionales que la vida nos regala de forma inesperada.
@@ -62,12 +77,12 @@
     </main>
     <footer class="pie">
 		  <h2 class="pie__pagina"> Donde Encontrarnos </h2>
-      <ul class="pie__pagina__icono">
-        <li class="iconoredes"><a href="https://www.facebook.com"
+        <ul class="pie__pagina__icono">
+           <li class="iconoredes"><a href="https://www.facebook.com"
         target="_blank"> <img src="./imagenes/facebook.png"></a></li>
-        <li class="iconoredes"><a href="https://www.instagram.com"
+           <li class="iconoredes"><a href="https://www.instagram.com"
         target="_blank"> <img src="./imagenes/instagram.png"></a></li>
-      </ul>
+        </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

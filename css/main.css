@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.soloH1 {
+  color: #1a8686;
+  font-family: 'Lemonada', cursive;
+  padding: 1.8rem;
+  margin: 16px auto;
+  width: fit-content;
+  border: solid #b03eda; }
+
+.film__ini {
+  border: border solid #dbb42c; }
