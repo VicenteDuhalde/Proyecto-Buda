@@ -10,7 +10,7 @@ padding: 0;
 /* El General */
 
 .soloH1{
-    color: rgb(26, 134, 134);
+    color: rgb(8, 29, 29);
     font-family: 'Lemonada', cursive;
     padding: 1.8rem;
     margin: 16px auto;
@@ -78,7 +78,6 @@ h2{
     border-radius: 0.43rem;
     border: solid 0.1rem #b03eda;
     margin: 5px auto;
-
 }
 .pie{
     background-color: #c4f592;

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.soloH1{
+    color: rgb(26, 134, 134);
+    font-family: 'Lemonada', cursive;
+    padding: 1.8rem;
+    margin: 16px auto;
+    width: fit-content;
+    border: solid #b03eda;
+    }
+    h2{
+        font-family: 'Lemonada', cursive;
+        color: rgb(17, 17, 4);
+        font-weight: 500;
+        font-size: 1.8rem;
+        width: fit-content;
+        border-radius: 0.43rem;
+        border: solid 0.1rem #b03eda;
+        margin: 5px auto;
+    }
+    .film{
+        &__ini{
+            border: $bordes;
+        }
+    }
+    .pie{
+        background-color: #c4f592;
+        height: 300px;
+    }
+    .pie__pagina{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99%;
+    }
+    .pie__pagina__icono{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .iconoredes img{
+        width: 45px;
+    }   

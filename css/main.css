@@ -1,3 +1,24 @@
+.carrouselinicio {
+  width: 99%;
+  height: 600px;
+  margin: 3px auto;
+  border: solid gold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: carrousel 30s infinite; }
+
+@keyframes carrousel {
+  0% {
+    background-image: url(../imagenes/buda50.jpg); }
+  25% {
+    background-image: url(../imagenes/galeria81.jpg); }
+  50% {
+    background-image: url(../imagenes/galeria20.jpg); }
+  75% {
+    background-image: url(../imagenes/nuevobuda3.jpg); }
+  100% {
+    background-image: url(../imagenes/nuevobuda41.jpg); } }
+
 * {
   margin: 0;
   padding: 0; }
@@ -10,5 +31,54 @@
   width: fit-content;
   border: solid #b03eda; }
 
+h2 {
+  font-family: 'Lemonada', cursive;
+  color: #111104;
+  font-weight: 500;
+  font-size: 1.8rem;
+  width: fit-content;
+  border-radius: 0.43rem;
+  border: solid 0.1rem #b03eda;
+  margin: 5px auto; }
+
 .film__ini {
   border: border solid #dbb42c; }
+
+.pie {
+  background-color: #c4f592;
+  height: 300px; }
+
+.pie__pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99%; }
+
+.pie__pagina__icono {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.iconoredes img {
+  width: 45px; }
+
+.carrouselinicio2 {
+  width: 99%;
+  height: 400px;
+  margin: 3px auto;
+  border: solid gold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: carrousel 30s infinite; }
+
+@keyframes carrousel {
+  0% {
+    background-image: url(../imagenes/galeria7.jpg); }
+  25% {
+    background-image: url(../imagenes/Diapositiva1.PNG); }
+  50% {
+    background-image: url(../imagenes/nuevobuda2.jpg); }
+  75% {
+    background-image: url(../imagenes/nuevobuda3.jpg); }
+  100% {
+    background-image: url(../imagenes/nuevobuda4.jpg); } }
