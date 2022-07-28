@@ -19,6 +19,33 @@
   100% {
     background-image: url(../imagenes/nuevobuda41.jpg); } }
 
+.nav-br {
+  display: flex;
+  background-color: #c4f592;
+  font-family: 'JetBrains Mono', monospace; }
+
+.parrafoIndex {
+  font-size: 20px;
+  width: 100rem;
+  border: solid 0.2rem black;
+  height: 25rem;
+  overflow: auto; }
+
+main section .sonidofr {
+  position: fixed;
+  right: 15px;
+  bottom: 15px; }
+
+.pruebagrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: flex-start; }
+
+.fotoinicio {
+  width: 250px;
+  height: 400px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -62,6 +89,27 @@ h2 {
 .iconoredes img {
   width: 45px; }
 
+.fondo {
+  background-color: #c4f592;
+  background-size: cover; }
+
+.container-fluid {
+  width: 90%; }
+
+.tm-gl:hover {
+  transform: scale(3); }
+
+.tm-gl {
+  transition: all 3s;
+  align-content: center; }
+
+.nav-link:hover {
+  transform: scale(1, 5); }
+
+.nav-link {
+  transition: all 2s;
+  text-decoration-color: blueviolet 2s; }
+
 .carrouselinicio2 {
   width: 99%;
   height: 400px;
@@ -82,3 +130,21 @@ h2 {
     background-image: url(../imagenes/nuevobuda3.jpg); }
   100% {
     background-image: url(../imagenes/nuevobuda4.jpg); } }
+
+@media screen and (max-width: 400px) {
+  .fondo2 {
+    background-image: url(../imagenes/cascadamobile2.png);
+    background-size: cover; } }
+
+.gal-br {
+  display: flex; }
+
+.tm-gl {
+  display: flex;
+  width: 250px;
+  height: 225px;
+  max-height: 225px;
+  border: solid #dbb42c; }
+
+.container-fluid {
+  width: 90%; }

@@ -24,3 +24,22 @@
         background-image: url(../imagenes/nuevobuda4.jpg);
     }
 }
+@media screen and (max-width: 400px){
+    .fondo2{
+        background-image: url(../imagenes/cascadamobile2.png);
+        background-size: cover;
+    }
+}
+.gal-br{
+    display:flex;
+}
+.tm-gl{
+    display:flex; 
+    width: 250px;
+    height: 225px;
+    max-height: 225px;
+    border: solid #dbb42c;
+}
+.container-fluid{
+    width: 90%;
+}

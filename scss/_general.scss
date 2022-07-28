@@ -42,4 +42,23 @@
     }
     .iconoredes img{
         width: 45px;
-    }   
+    } 
+    .fondo{
+        background-color: #c4f592;
+        background-size: cover;
+    }  
+    .container-fluid{
+        width: 90%;
+    }
+    .tm-gl:hover{
+        transform: scale(3);
+    }
+    .tm-gl{
+        transition: all 3s; align-content: center;
+    }
+    .nav-link:hover{
+        transform: scale(1,5);
+    }
+    .nav-link{
+        transition: all 2s; text-decoration-color: blueviolet 2s;
+    }
