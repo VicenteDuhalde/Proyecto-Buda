@@ -21,22 +21,20 @@ h2 {
   margin: 5px auto; }
 
 .film__ini {
-  border: border solid #dbb42c; }
+  border: solid #dbb42c; }
 
 .pie {
   background-color: #c4f592;
   height: 300px; }
-
-.pie__pagina {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 99%; }
-
-.pie__pagina__icono {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
+  .pie__pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%; }
+    .pie__pagina__icono {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
 
 .iconoredes img {
   width: 45px; }
@@ -112,7 +110,7 @@ main section .sonidofr {
 
 .carrouselinicio2 {
   width: 99%;
-  height: 400px;
+  height: 500px;
   margin: 3px auto;
   border: solid gold;
   background-repeat: no-repeat;

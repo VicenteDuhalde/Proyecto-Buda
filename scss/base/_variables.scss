@@ -1,1 +1,13 @@
-$bordes: border solid #dbb42c;
+$bordes: (
+    "bordesdor": solid #dbb42c,
+    "bordes-fotos": #b03eda
+);
+@mixin calesita ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+    margin: 3px auto;
+    border: solid gold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: carrousel 30s infinite;
+}

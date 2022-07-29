@@ -1,12 +1,6 @@
 
 .carrouselinicio{
-    width: 99%;
-    height: 600px;
-    margin: 3px auto;
-    border: solid gold;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: carrousel 30s infinite;
+    @include calesita (99%, 600px)
 }  
 @keyframes carrousel{
     0%{
