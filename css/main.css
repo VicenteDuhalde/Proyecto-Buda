@@ -34,7 +34,8 @@ h2 {
     .pie__pagina__icono {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      list-style: none; }
 
 .iconoredes img {
   width: 45px; }
@@ -71,7 +72,7 @@ h2 {
 
 @keyframes carrousel {
   0% {
-    background-image: url(../imagenes/buda50.jpg); }
+    background-image: url(../imagenes/mias1.jpg); }
   25% {
     background-image: url(../imagenes/galeria81.jpg); }
   50% {
