@@ -37,3 +37,18 @@
 .container-fluid{
     width: 90%;
 }
+.segundagaleria{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 40px;
+        &__lista{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+            &__img{
+            width: 250px;
+            height: 225px;
+            max-height: 225px;
+        }
+}

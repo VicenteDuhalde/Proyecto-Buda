@@ -144,6 +144,19 @@ main section .sonidofr {
 .container-fluid {
   width: 90%; }
 
+.segundagaleria {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 40px; }
+  .segundagaleria__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .segundagaleria__img {
+    width: 250px;
+    height: 225px;
+    max-height: 225px; }
+
 .significadosParrafo {
   font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
