@@ -65,7 +65,7 @@ h2{
             & .logofooter img{
                 width: 180px;
             }
-            & .testfooter{
+            & .textfooter{
                 max-width: 300px;
                 margin-top: 15px;
                 font-weight: 500;
@@ -76,17 +76,18 @@ h2{
                 font-weight: 600;
             }
             & a{
+                width: 140px;
                 margin-top: 15px;
                 font-weight: 600;
                 text-decoration: none;
-                color: #c4f592;
+                color: gold;
             }
     }       
     .elemento__uno a:hover{
         opacity: 1.9;
     }
-    .elemento__uno a .fab{
-        font-size: 40px;
+    .elemento__uno a .fa-brands{
+        font-size: 86px;
     }
     .elemento__dos{
         max-width: 1200px;
