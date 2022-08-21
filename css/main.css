@@ -23,23 +23,6 @@ h2 {
 .film__ini {
   border: solid #dbb42c; }
 
-.pie {
-  background-color: #c4f592;
-  height: 300px; }
-  .pie__pagina {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 99%; }
-    .pie__pagina__icono {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      list-style: none; }
-
-.iconoredes img {
-  width: 45px; }
-
 footer {
   width: 100%;
   padding: 50px 0px;
@@ -75,7 +58,7 @@ footer {
     color: gold; }
 
 .elemento__uno a:hover {
-  opacity: 1.9; }
+  opacity: 0.5; }
 
 .elemento__uno a .fa-brands {
   font-size: 86px; }
@@ -90,6 +73,13 @@ footer {
 
 .fondo {
   background-color: #c4f592; }
+
+.imagen__sola {
+  background-image: url(../imagenes/cascadagrande.jpg);
+  background-size: cover;
+  width: 99%;
+  height: 2000px;
+  margin: auto; }
 
 .container-fluid {
   width: 90%; }

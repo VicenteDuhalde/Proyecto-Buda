@@ -25,30 +25,10 @@ h2{
             border: map-get($bordes, "bordesdor");
         }
     }
-    .pie{
-        background-color: #c4f592;
-        height: 300px;
-            &__pagina{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 99%;
-                    &__icono{
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-evenly;
-                        list-style: none;
-                    }
-        }
-    }
-    .iconoredes img{
-        width: 45px;
-    }
     footer{
         width: 100%;
         padding: 50px 0px;
         background-color: #b03eda; 
-
     }
     .footernuevo{
         display: flex;
@@ -84,7 +64,7 @@ h2{
             }
     }       
     .elemento__uno a:hover{
-        opacity: 1.9;
+        opacity: 0.5;
     }
     .elemento__uno a .fa-brands{
         font-size: 86px;
@@ -100,6 +80,13 @@ h2{
     }
     .fondo{
         background-color: #c4f592;
+    }
+    .imagen__sola{
+        background-image: url(../imagenes/cascadagrande.jpg);
+        background-size: cover;
+        width: 99%;
+        height: 2000px;
+        margin: auto; 
     }  
     .container-fluid{
         width: 90%;

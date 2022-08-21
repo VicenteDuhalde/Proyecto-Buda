@@ -1,0 +1,5 @@
+@media scree (max-width: 600px){
+    .carrouselinicio{
+        display: none;
+    }
+}
