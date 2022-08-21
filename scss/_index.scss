@@ -1,0 +1,51 @@
+
+.carrouselinicio{
+    @include calesita (99%, 600px)
+}  
+@keyframes carrousel{
+    0%{
+        background-image: url(../imagenes/mias1.jpg);
+    }
+    25%{
+        background-image: url(../imagenes/galeria81.jpg);
+    }
+    50%{
+        background-image: url(../imagenes/galeria20.jpg);
+    }
+    75%{
+        background-image: url(../imagenes/nuevobuda3.jpg);
+    }
+    100%{
+        background-image: url(../imagenes/nuevobuda41.jpg);
+    }
+}
+.nav-br{ 
+    display: flex;
+    background-color:#c4f592;
+    font-family: 'JetBrains Mono', monospace;
+}
+main section .sonidofr{ 
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.pruebagrid{
+    padding: 35px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+        &__img{
+            width: 250px;
+            height: 400px;
+            }
+            &__img__texto{
+                font-size: 25px;
+                width: 98%;
+                border: solid 0.2rem black;
+                height: 25rem;
+                overflow: auto;
+                    }
+}
+
+
+
+   

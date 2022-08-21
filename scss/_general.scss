@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.soloH1{
+    color: rgb(26, 134, 134);
+    font-family: 'Lemonada', cursive;
+    padding: 1.8rem;
+    margin: 16px auto;
+    width: fit-content;
+    border: solid #b03eda;
+    }
+h2{
+    font-family: 'Lemonada', cursive;
+    color: rgb(17, 17, 4);
+    font-weight: 500;
+    font-size: 1.8rem;
+    width: fit-content;
+    border-radius: 0.43rem;
+    border: solid 0.1rem #b03eda;
+    margin: 5px auto;
+    }
+    .film{
+        &__ini{
+            border: map-get($bordes, "bordesdor");
+        }
+    }
+    footer{
+        width: 100%;
+        padding: 50px 0px;
+        background-color: #b03eda; 
+    }
+    .footernuevo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 80px;
+    } 
+    .elemento__uno{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+            & .logofooter img{
+                width: 180px;
+            }
+            & .textfooter{
+                max-width: 300px;
+                margin-top: 15px;
+                font-weight: 500;
+                font-size: 25px;
+            }
+            & h3{
+                margin-bottom: 35px;
+                font-weight: 600;
+            }
+            & a{
+                width: 140px;
+                margin-top: 15px;
+                font-weight: 600;
+                text-decoration: none;
+                color: gold;
+            }
+    }       
+    .elemento__uno a:hover{
+        opacity: 0.5;
+    }
+    .elemento__uno a .fa-brands{
+        font-size: 86px;
+    }
+    .elemento__dos{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 40px;
+            & p{
+                margin-top: 20px;
+            }
+    }
+    .fondo{
+        background-color: #c4f592;
+    }
+    .imagen__sola{
+        background-image: url(../imagenes/cascadagrande.jpg);
+        background-size: 100% 100%;
+        width: 99%;
+        height: 2000px;
+        margin: auto; 
+    }  
+    .container-fluid{
+        width: 90%;
+    }
+    .tm-gl:hover{
+        transform: scale(3);
+    }
+    .tm-gl{
+        transition: all 3s; align-content: center;
+    }
+    .nav-link:hover{
+        transform: scale(1,5);
+    }
+    .nav-link{
+        transition: all 2s; text-decoration-color: blueviolet 2s;
+    }

@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.soloH1 {
+  color: #1a8686;
+  font-family: 'Lemonada', cursive;
+  padding: 1.8rem;
+  margin: 16px auto;
+  width: fit-content;
+  border: solid #b03eda; }
+
+h2 {
+  font-family: 'Lemonada', cursive;
+  color: #111104;
+  font-weight: 500;
+  font-size: 1.8rem;
+  width: fit-content;
+  border-radius: 0.43rem;
+  border: solid 0.1rem #b03eda;
+  margin: 5px auto; }
+
+.film__ini {
+  border: solid #dbb42c; }
+
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #b03eda; }
+
+.footernuevo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 80px; }
+
+.elemento__uno {
+  display: flex;
+  flex-direction: column;
+  padding: 30px; }
+  .elemento__uno .logofooter img {
+    width: 180px; }
+  .elemento__uno .textfooter {
+    max-width: 300px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 25px; }
+  .elemento__uno h3 {
+    margin-bottom: 35px;
+    font-weight: 600; }
+  .elemento__uno a {
+    width: 140px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: gold; }
+
+.elemento__uno a:hover {
+  opacity: 0.5; }
+
+.elemento__uno a .fa-brands {
+  font-size: 86px; }
+
+.elemento__dos {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px; }
+  .elemento__dos p {
+    margin-top: 20px; }
+
+.fondo {
+  background-color: #c4f592; }
+
+.imagen__sola {
+  background-image: url(../imagenes/cascadagrande.jpg);
+  background-size: 100% 100%;
+  width: 99%;
+  height: 2000px;
+  margin: auto; }
+
+.container-fluid {
+  width: 90%; }
+
+.tm-gl:hover {
+  transform: scale(3); }
+
+.tm-gl {
+  transition: all 3s;
+  align-content: center; }
+
+.nav-link:hover {
+  transform: scale(1, 5); }
+
+.nav-link {
+  transition: all 2s;
+  text-decoration-color: blueviolet 2s; }
+
+.carrouselinicio {
+  width: 99%;
+  height: 600px;
+  margin: 3px auto;
+  border: solid gold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: carrousel 30s infinite; }
+
+@keyframes carrousel {
+  0% {
+    background-image: url(../imagenes/mias1.jpg); }
+  25% {
+    background-image: url(../imagenes/galeria81.jpg); }
+  50% {
+    background-image: url(../imagenes/galeria20.jpg); }
+  75% {
+    background-image: url(../imagenes/nuevobuda3.jpg); }
+  100% {
+    background-image: url(../imagenes/nuevobuda41.jpg); } }
+
+.nav-br {
+  display: flex;
+  background-color: #c4f592;
+  font-family: 'JetBrains Mono', monospace; }
+
+main section .sonidofr {
+  position: fixed;
+  right: 15px;
+  bottom: 15px; }
+
+.pruebagrid {
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 1fr 4fr; }
+  .pruebagrid__img {
+    width: 250px;
+    height: 400px; }
+  .pruebagrid__img__texto {
+    font-size: 25px;
+    width: 98%;
+    border: solid 0.2rem black;
+    height: 25rem;
+    overflow: auto; }
+
+.carrouselinicio2 {
+  width: 99%;
+  height: 500px;
+  margin: 3px auto;
+  border: solid gold;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: carrousel 30s infinite; }
+
+@keyframes carrousel {
+  0% {
+    background-image: url(../imagenes/galeria7.jpg); }
+  25% {
+    background-image: url(../imagenes/Diapositiva1.PNG); }
+  50% {
+    background-image: url(../imagenes/nuevobuda2.jpg); }
+  75% {
+    background-image: url(../imagenes/nuevobuda3.jpg); }
+  100% {
+    background-image: url(../imagenes/nuevobuda4.jpg); } }
+
+@media screen and (max-width: 400px) {
+  .fondo2 {
+    background-image: url(../imagenes/cascadamobile2.png);
+    background-size: cover; } }
+
+.gal-br {
+  display: flex; }
+
+.tm-gl {
+  display: flex;
+  width: 250px;
+  height: 225px;
+  max-height: 225px;
+  border: solid #dbb42c; }
+
+.container-fluid {
+  width: 90%; }
+
+.segundagaleria {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr); }
+  .segundagaleria__lista {
+    display: grid;
+    grid-template-columns: repeat 5, 1 fr;
+    gap: 20px; }
+  .segundagaleria__img {
+    width: 250px;
+    height: 225px;
+    max-height: 225px; }
+
+.significadosParrafo {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  word-spacing: 0.8rem; }
+
+.prf1 {
+  color: #43caca; }
+
+.prf2 {
+  color: #1f0255; }
+
+.prf3 {
+  color: #421ccc; }

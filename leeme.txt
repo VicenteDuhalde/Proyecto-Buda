@@ -1,0 +1,7 @@
+Bueno agregue todo a SASS, utilice mixin lo cual me parece fantastico, me simplifico andar escribiendo tanto.
+_extends no agregue, no sabia bien donde agregarlo, quite y agregue unos videos del index, agregue SEO.
+Igual me faltaria agregar otra camada de fotos en galeria y empezar a terminar la pagina de como empezo,
+amen de que no se va a llamar asi.
+Use Mapas, y si hubiese sabidop desde principio esto de mapas, habria puesto a todas las clases sin pasarme una con BEM.
+te simplifica mucho lo de mapas y te lo organiza muy bien.
+Siento que me falta muchisimo y ya falta muy poco. 
